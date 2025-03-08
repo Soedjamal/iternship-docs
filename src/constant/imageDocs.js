@@ -35,3 +35,9 @@ export const imagePMB = [
   "/images/docs-pmb/pmb-6.jpg",
   "/images/docs-pmb/pmb-7.jpg",
 ];
+
+export const imagePMBbo = [
+  {
+    imgOn: "/images/docs-pmb/pmb-01.jpg",
+  },
+];

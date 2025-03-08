@@ -24,23 +24,16 @@ const Menu = () => {
           </summary>
           <ul>
             <li>
-              <a href="#laporan-mugas">Dokumentasi Laporan Mugas</a>
+              <a href="#laboran-mugas">Dokumentasi Laboran Mugas</a>
             </li>
             <li>
-              <a href="#laporan-kendenh">Dokumentasi Laporan Kendeng</a>
+              <a href="#laboran-kendenh">Dokumentasi Laboran Kendeng</a>
             </li>
             <li>
-              <a href="#laporan-mugas">
-                Dokumentasi Penerimaan Mahasiswa Baru PMB
-              </a>
+              <a href="#pmb">Dokumentasi Penerimaan Mahasiswa Baru PMB</a>
             </li>
           </ul>
         </details>
-      </li>
-      <li>
-        <Link to="/contact" className="font-semibold text-zinc-600">
-          Kontak
-        </Link>
       </li>
     </div>
   );

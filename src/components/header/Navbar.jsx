@@ -9,27 +9,37 @@ const Menu = () => {
     >
       <li>
         <Link to="/" className="font-semibold text-zinc-600">
-          Home
+          Beranda
+        </Link>
+      </li>
+      <li>
+        <Link to="/profile" className="font-semibold text-zinc-600">
+          Profil
         </Link>
       </li>
       <li>
         <details close>
           <summary className="font-semibold text-zinc-600">
-            <Link to="/profile">Profile</Link>
+            <Link to="/documentation">Dokumentasi</Link>
           </summary>
           <ul>
             <li>
-              <a href="#laporan-mugas">Dokumentasi</a>
+              <a href="#laporan-mugas">Dokumentasi Laporan Mugas</a>
             </li>
             <li>
-              <a>Kesimpulan</a>
+              <a href="#laporan-kendenh">Dokumentasi Laporan Kendeng</a>
+            </li>
+            <li>
+              <a href="#laporan-mugas">
+                Dokumentasi Penerimaan Mahasiswa Baru PMB
+              </a>
             </li>
           </ul>
         </details>
       </li>
       <li>
         <Link to="/contact" className="font-semibold text-zinc-600">
-          Contact
+          Kontak
         </Link>
       </li>
     </div>

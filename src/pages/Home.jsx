@@ -5,10 +5,15 @@ const Home = () => {
     <>
       <div
         id="upper"
-        className="hero bg-gradient-to-br from-pink-50 to-purple-300 pt-[200px] min-h-screen"
+        className="hero bg-gradient-to-br from-pink-50 to-purple-300 pt-[150px] min-h-screen"
       >
         <div className="hero-content flex-col md:w-[600px] w-[400px]">
           <div>
+            <img
+              className="w-auto rounded-lg mb-8 drop-shadow-lg border-[2px] border-white"
+              src="https://gmedia.id/event/wp-content/uploads/2023/02/Unisbank-Gelar-Talkshow-Nasional-Videografi-2018-Bersama-Gmedia.jpg"
+              alt=""
+            />
             <h1 class="text-5xl font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
               Dokumentasi Magang Universitas Stikubank
             </h1>

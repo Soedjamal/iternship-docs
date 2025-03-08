@@ -1,5 +1,5 @@
 import React from "react";
-import { imageKendeng, imageMugas } from "../constant/imageDocs";
+import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
@@ -30,57 +30,9 @@ const Profile = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <a href="#laporan-mugas" className="btn btn-wide btn-secondary">
+            <Link to="/documentation" className="btn btn-wide btn-secondary">
               Lihat Dokumentasi
-            </a>
-          </div>
-        </div>
-      </div>
-      <div
-        id="laporan-mugas"
-        className="hero pt-14 bg-pink-50 min-h-[80vh] items-start"
-      >
-        <div className="hero-content flex-col w-[400px]">
-          <h1 class="text-4xl font-bold bg-gradient-to-br from-sky-400 to-purple-600 bg-clip-text text-transparent">
-            Dokumentasi Laporan Mugas
-          </h1>
-          <div className="">
-            <div className="carousel rounded-box">
-              {imageMugas.map((img, i) => (
-                <div className="carousel-item w-auto h-[400px]" key={i}>
-                  <img
-                    src={img}
-                    alt="Burger"
-                    loading="lazy"
-                    className="object-cover h-full w-full"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        id="laporan-kendeng"
-        className="hero pt-14 bg-gradient-to-tl from-pink-50 to-purple-200 min-h-screen items-start"
-      >
-        <div className="hero-content flex-col w-[400px]">
-          <h1 class="text-4xl font-bold bg-gradient-to-br from-sky-400 to-purple-600 bg-clip-text text-transparent">
-            Dokumentasi Laporan Kendeng
-          </h1>
-          <div className="">
-            <div className="carousel rounded-box">
-              {imageKendeng.map((img, i) => (
-                <div className="carousel-item w-auto h-[400px]" key={i}>
-                  <img
-                    src={img}
-                    alt="Burger"
-                    loading="lazy"
-                    className="object-cover w-full h-full"
-                  />
-                </div>
-              ))}
-            </div>
+            </Link>
           </div>
         </div>
       </div>

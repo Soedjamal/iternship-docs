@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Contact from "./pages/Contact";
 import ScrollToTop from "./components/utils/ScrollToTop";
+import Documentation from "./pages/Documentation";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/documentation" element={<Documentation />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

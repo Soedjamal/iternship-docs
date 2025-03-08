@@ -25,3 +25,13 @@ export const imageMugas = [
   "/images/docs-laporan-mugas/imgm-9.jpg",
   "/images/docs-laporan-mugas/imgm-10.jpg",
 ];
+
+export const imagePMB = [
+  "/images/docs-pmb/pmb-1.jpg",
+  "/images/docs-pmb/pmb-2.jpg",
+  "/images/docs-pmb/pmb-3.jpg",
+  "/images/docs-pmb/pmb-4.jpg",
+  "/images/docs-pmb/pmb-5.jpg",
+  "/images/docs-pmb/pmb-6.jpg",
+  "/images/docs-pmb/pmb-7.jpg",
+];

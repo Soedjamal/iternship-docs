@@ -56,6 +56,13 @@ const Footer = () => {
             </a>
           </div>
         </nav>
+        <div className="relative bottom-0 w-full px-8 py-4 flex justify-center border-t-zinc-600 border-t-[2px]">
+          <h4 className="font-bold text-center">
+            &copy; {new Date().getFullYear()} Shafira Keshya Az Zahra,
+            <br />
+            All Rights Reserved{" "}
+          </h4>
+        </div>
       </footer>
     </>
   );

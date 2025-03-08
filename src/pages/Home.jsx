@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <div className="hero bg-gradient-to-br from-pink-50 to-purple-300 pt-[200px] min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse w-[400px]">
+        <div className="hero-content flex-col lg:flex-row-reverse md:w-[600px] w-[400px]">
           <div>
             <h1 class="text-5xl font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
               Dokumentasi Magang Universitas Stikubank
@@ -21,7 +21,7 @@ const Home = () => {
             </button>
           </div>
 
-          <div className="mt-[200px] w-full flex flex-col mb-[50px] relative z-0">
+          <div className="mt-[200px] md:w-[400px] w-full flex flex-col mb-[50px] relative z-0">
             <h1 class="text-5xl mb-2 h-20 font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
               Program Studi
             </h1>
@@ -73,9 +73,9 @@ const Home = () => {
         </div>
       </div>
       <div className="hero bg-gradient-to-br from-pink-50 to-purple-50 items-start py-[50px] min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse w-[400px]">
+        <div className="hero-content flex-col lg:flex-row-reverse md:w-[600px] w-[400px]">
           <div>
-            <div className="flex items-end">
+            <div className="flex items-center justify-between">
               <h1 class="text-5xl w-fit font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
                 Sejarah Unisbank
               </h1>
@@ -136,7 +136,7 @@ const Home = () => {
         </div>
       </div>{" "}
       <div className="hero bg-gradient-to-br from-pink-50 to-blue-50 items-start py-[50px] min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse w-[400px]">
+        <div className="hero-content flex-col lg:flex-row-reverse md:w-[600px] w-[400px]">
           <div>
             <h1 class="text-5xl font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
               Visi & Misi Unisbank

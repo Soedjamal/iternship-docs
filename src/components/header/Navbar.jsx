@@ -42,11 +42,11 @@ const Navbar = () => {
   return (
     <>
       {menu ? (
-        <div className="transition-all duration-500 ease-in-out fixed top-16 left-0">
+        <div className="transition-all duration-500 ease-in-out fixed top-16 left-0 z-10">
           <Menu />
         </div>
       ) : (
-        <div className="transition-all duration-500 ease-in-out fixed top-[-100%] left-0">
+        <div className="transition-all duration-500 ease-in-out fixed top-[-100%] left-0 z-10">
           <Menu />
         </div>
       )}

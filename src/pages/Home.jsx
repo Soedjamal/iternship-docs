@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Home = () => {
   return (
     <>
-      <div className="hero bg-gradient-to-br from-pink-50 to-purple-300 pt-[200px] min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse md:w-[600px] w-[400px]">
+      <div
+        id="upper"
+        className="hero bg-gradient-to-br from-pink-50 to-purple-300 pt-[200px] min-h-screen"
+      >
+        <div className="hero-content flex-col md:w-[600px] w-[400px]">
           <div>
             <h1 class="text-5xl font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
               Dokumentasi Magang Universitas Stikubank
@@ -16,9 +19,9 @@ const Home = () => {
               dosen yang berpikiran terbuka untuk menciptakan semangat dan
               kreativitasmu.
             </p>
-            <button className="btn btn-wide btn-secondary">
-              Lihat Dokumentasi
-            </button>
+            <a href="#sejarah" className="btn btn-wide btn-secondary">
+              Lihat Lebih Lanjut
+            </a>
           </div>
 
           <div className="mt-[200px] md:w-[400px] w-full flex flex-col mb-[50px] relative z-0">
@@ -26,7 +29,7 @@ const Home = () => {
               Program Studi
             </h1>
 
-            <div className="card lg:card-side bg-base-100 shadow-sm w-full ">
+            <div className="card  bg-base-100 shadow-sm w-full ">
               <figure>
                 <img src="" alt="Album" className="w-full h-[250px]" />
               </figure>
@@ -37,7 +40,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card lg:card-side bg-base-100 shadow-sm w-full mt-10">
+            <div className="card  bg-base-100 shadow-sm w-full mt-10">
               <figure>
                 <img src="" alt="Album" className="w-full h-[250px]" />
               </figure>
@@ -48,7 +51,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card lg:card-side bg-base-100 shadow-sm w-full mt-10">
+            <div className="card  bg-base-100 shadow-sm w-full mt-10">
               <figure>
                 <img src="" alt="Album" className="w-full h-[250px]" />
               </figure>
@@ -59,7 +62,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card lg:card-side bg-base-100 shadow-sm w-full mt-10">
+            <div className="card  bg-base-100 shadow-sm w-full mt-10">
               <figure>
                 <img src="" alt="Album" className="w-full h-[250px]" />
               </figure>
@@ -72,7 +75,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="hero bg-gradient-to-br from-pink-50 to-purple-50 items-start py-[50px] min-h-screen">
+      <div
+        id="sejarah"
+        className="hero bg-gradient-to-br from-pink-50 to-purple-50 items-start py-[50px] min-h-screen"
+      >
         <div className="hero-content flex-col lg:flex-row-reverse md:w-[600px] w-[400px]">
           <div>
             <div className="flex items-center justify-between">

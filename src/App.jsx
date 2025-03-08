@@ -5,11 +5,13 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -30,50 +30,66 @@ const Home = () => {
           </div>
 
           <div className="mt-[200px] md:w-[400px] w-full flex flex-col mb-[50px] relative z-0">
-            <h1 class="text-5xl mb-2 h-20 font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-5xl mb-2 h-20 font-bold bg-gradient-to-br from-pink-400 to-purple-600 bg-clip-text text-transparent">
               Program Studi
             </h1>
 
             <div className="card  bg-base-100 shadow-sm w-full ">
               <figure>
-                <img src="" alt="Album" className="w-full h-[250px]" />
+                <img
+                  src="https://www.unisbank.ac.id/v3/wp-content/uploads/2025/01/UNISBA1-768x768.jpg"
+                  alt="Album"
+                  className="w-full h-auto"
+                />
               </figure>
               <div className="card-body bg-gradient-to-br from-rose-400 to-purple-600 rounded-b-lg flex flex-col items-center">
                 <h2 className="card-title text-2xl">Fakultas</h2>
-                <p className="">Ekonomika dan Bisnis</p>
+                <p className="text-lg">Ekonomika dan Bisnis</p>
                 <div className="card-actions justify-end"></div>
               </div>
             </div>
 
             <div className="card  bg-base-100 shadow-sm w-full mt-10">
               <figure>
-                <img src="" alt="Album" className="w-full h-[250px]" />
+                <img
+                  src="https://www.unisbank.ac.id/v3/wp-content/uploads/2025/01/MASADE1-768x768.jpg"
+                  alt="Album"
+                  className="w-full h-auto"
+                />
               </figure>
               <div className="card-body bg-gradient-to-br from-rose-400 to-purple-600 rounded-b-lg flex flex-col items-center">
                 <h2 className="card-title text-2xl">Fakultas</h2>
-                <p>Teknologi Informasi dan Industri</p>
+                <p className="text-lg">Teknologi Informasi dan Industri</p>
                 <div className="card-actions justify-end"></div>
               </div>
             </div>
 
             <div className="card  bg-base-100 shadow-sm w-full mt-10">
               <figure>
-                <img src="" alt="Album" className="w-full h-[250px]" />
+                <img
+                  src="https://www.unisbank.ac.id/v3/wp-content/uploads/2025/01/FAKULT1-768x768.jpg"
+                  alt="Album"
+                  className="w-full h-auto"
+                />
               </figure>
               <div className="card-body bg-gradient-to-br from-rose-400 to-purple-600 rounded-b-lg flex flex-col items-center">
                 <h2 className="card-title text-2xl">Fakultas</h2>
-                <p>Hukum dan Bahasa</p>
+                <p className="text-lg">Hukum dan Bahasa</p>
                 <div className="card-actions justify-end"></div>
               </div>
             </div>
 
             <div className="card  bg-base-100 shadow-sm w-full mt-10">
               <figure>
-                <img src="" alt="Album" className="w-full h-[250px]" />
+                <img
+                  src="https://www.unisbank.ac.id/v3/wp-content/uploads/2025/01/SIAPLA1-768x768.jpg"
+                  alt="Album"
+                  className="w-full h-auto"
+                />
               </figure>
               <div className="card-body bg-gradient-to-br from-rose-400 to-purple-600 rounded-b-lg flex flex-col items-center">
                 <h2 className="card-title text-2xl">Fakultas</h2>
-                <p>Vokasi</p>
+                <p className="text-lg">Vokasi</p>
                 <div className="card-actions justify-end"></div>
               </div>
             </div>

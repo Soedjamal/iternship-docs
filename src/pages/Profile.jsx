@@ -1,3 +1,7 @@
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -29,18 +33,19 @@ const Profile = () => {
               Contact me
             </h1>
             <div className="bio mt-4">
-              <h4 className="text-lg text-zinc-600 font-bold flex">
-                Email :{" "}
-                <p className="font-normal ml-2">shafirakeshya25@gmail.com</p>
+              <h4 className="text-lg text-zinc-600 font-bold flex items-center ">
+                <FontAwesomeIcon icon={faEnvelope} />
+                <p className="font-normal mx-4">shafirakeshya25@gmail.com</p>
               </h4>
-              <h4 className="text-lg text-zinc-600 font-bold flex">
-                Nomor Hp : <p className="font-normal ml-2">+62 8314 7334 686</p>
+              <h4 className="text-lg text-zinc-600 font-bold flex items-center ">
+                <FontAwesomeIcon icon={faPhone} />
+                <p className="font-normal mx-4">+62 8314 7334 686</p>
               </h4>{" "}
-              <h4 className="text-lg text-zinc-600 font-bold flex">
-                Instagram :{" "}
+              <h4 className="text-lg text-zinc-600 font-bold flex items-center ">
+                <FontAwesomeIcon icon={faInstagram} />
                 <a
                   href="https://www.instagram.com/frkeshya?igsh=NG84bDRiMHMza3Jx"
-                  className="font-normal ml-2 text-sky-700"
+                  className="font-normal mx-4 text-sky-700"
                 >
                   @frkeshya
                 </a>
